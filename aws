@@ -1,0 +1,56 @@
+LINUX CLASS-4
+VIM EDITOR: 
+IT IS USED TO MODIFY THE DATA IN A FILE. IT HAS 3 MODES 
+COMMAND MODE: This is the default mode in vim editor. This is used to perform some
+actions like copy the data, delete the data, and undo, redo, search for a word and also we can
+move to a particular line.
+gg : used to go to 1st line of a file
+G : used to go to last line of a file
+5gg : used to go to 5th line of a file
+:19 : we can move to 19th line of a file
+:set number : used to set a numbers of a file
+yy : copy a line 
+3yy : used to copy 3 lines from our cursor 
+p : used to paste the data 
+5p : used to paste 5 times 
+dd : delete the entire line
+5dd: used to delete 5 lines at a time
+u : used for undo
+ctrl + r : used for redo
+1.  COMMAND MODE
+2.  INSERT MODE
+3.  SAVE & QUIT MODE
+/word : used to search for a word
+?word : used to search for a word in a file
+:%s/oldword/new-word/ : used to replace a single occurrence in a line
+ex: my name is mustafa, mustafa is a devops engineer, mustafa is from hyd.
+:%s/mustafa/flm
+if we use this command the the o/p: my name is flm, mustafa is a devops engineer, mustafa is
+from hyd.
+:%s/mustafa/flm/g 
+if we use this command the the o/p: my name is flm, flm is a devops engineer, flm is from hyd.
+because i used g (global)
+INSERT MODE: It is used to insert the data.
+But by default we are in command mode, if you wish to go to command mode to insert mod
+you can use small i (i)
+To go back to command mode : esc
+A : used to go to the end of the line
+I : used to go to the starting of the line.
+O : used to create a new line (up)
+o : used to create a new line (down)
+SAVE & QUIT MODE: This mode is save the data and quit from vim editor 
+:w : used to save the data in a file
+:q : used to quit from vim editor 
+:wq : used to save & quit at a time
+:q! : used to quit from vim editor forcefully
+:wq! : used to save & quit forcefully
+vim -o file1 file2 : used to view 2 files (one by one view)
+vim -O file1 file2 : used to view 2 files (side by side)
+ADD SOME TIPS AS A LINUX USER:
+ctrl + w : used to delete a single word in a command
+crtl + u : used to delete entire command
+ctrl + a : used to go to starting of the command
+ctrl + e : used to go to ending of the command
+history : used to get history of our commands
+!history_number : used to perform same command from history
+ctrl + k : used to cut the command until the cursor 
