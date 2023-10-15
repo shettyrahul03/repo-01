@@ -8,6 +8,8 @@ gg : used to go to 1st line of a file
 G : used to go to last line of a file
 5gg : used to go to 5th line of a file
 :19 : we can move to 19th line of a file
+rahul is a hero
+i have modifying the xcode from git hub
 :set number : used to set a numbers of a file
 yy : copy a line 
 3yy : used to copy 3 lines from our cursor 
