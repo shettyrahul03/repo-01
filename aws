@@ -19,25 +19,22 @@ u : used for undo
 ctrl + r : used for redo
 1.  COMMAND MODE
 2.  INSERT MODE
-3.  SAVE & QUIT MODE
 /word : used to search for a word
 ?word : used to search for a word in a file
 :%s/oldword/new-word/ : used to replace a single occurrence in a line
 ex: my name is mustafa, mustafa is a devops engineer, mustafa is from hyd.
 :%s/mustafa/flm
-if we use this command the the o/p: my name is flm, mustafa is a devops engineer, mustafa is
 from hyd.
 :%s/mustafa/flm/g 
 if we use this command the the o/p: my name is flm, flm is a devops engineer, flm is from hyd.
 because i used g (global)
-INSERT MODE: It is used to insert the data.
+1577gz8qgzbyn0z9g<F7>`1thyu
 But by default we are in command mode, if you wish to go to command mode to insert mod
 you can use small i (i)
 To go back to command mode : esc
 A : used to go to the end of the line
-I : used to go to the starting of the line.
-O : used to create a new line (up)
 o : used to create a new line (down)
+guivtcfyvghyg:
 SAVE & QUIT MODE: This mode is save the data and quit from vim editor 
 :w : used to save the data in a file
 :q : used to quit from vim editor 
